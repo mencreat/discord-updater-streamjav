@@ -32,7 +32,7 @@ async function main() {
   const sorted = data.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
 
   for (const anime of sorted) {
-    const link = `https://streamcuy.vercel.app/watch/${anime.type}/${anime.id}`;
+    const link = `https://streamjav.vercel.app/watch/${anime.type}/${anime.id}`;
     if (await isSent(anime.id)) continue;
 
     const capitalizeWord = anime.type.charAt(0).toUpperCase() + anime.type.slice(1);
