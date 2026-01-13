@@ -1,5 +1,5 @@
 name: Kirim Hentai ke Discord
-
+ 
 on:
   schedule:
     - cron: '0 16 * * *'   # jam 08:00 WIB
